@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import TodoList from './Todolist';
 import Clock from './timer';
+import MyWeather from './MyWeader';
 
 {/*
   작성자: kjm
@@ -15,6 +16,7 @@ function App(){
     <>
       <div className="containel" >
         <TodoList/>
+        <MyWeather waether='비'>읽기예보</MyWeather>
         <Clock/>
       </div>
     </>
